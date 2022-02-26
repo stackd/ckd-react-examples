@@ -1,0 +1,23 @@
+---
+title: "useDero()"
+type: "hook"
+signInRequired: true
+---
+
+### Uses
+
+- Get signed in account's Dero wallet info
+
+### Type info
+
+```typescript
+const useDero: () => {
+  available: boolean; // is the channel loaded?
+  data: {
+    address: string; // dero address
+    height: number; // dero height
+    balance: string; // dero balance
+    unlockedBalance: string; // unlocked dero balance
+  };
+};
+```
