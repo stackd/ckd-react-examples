@@ -1,0 +1,19 @@
+---
+title: "useCkd()"
+type: "hook"
+signInRequired: true
+---
+
+### Uses
+
+- Check if Ckd is available on `localhost:1818`
+- Check if signed in or not
+
+### Type info
+
+```typescript
+const useCkd: () => {
+  connected: boolean; // is Ckd available on localhost:1818?
+  signedIn: () => boolean; // are we signed in?
+};
+```

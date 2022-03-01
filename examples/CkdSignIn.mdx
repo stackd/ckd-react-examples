@@ -1,0 +1,16 @@
+---
+title: "<CkdSignIn />"
+type: "component"
+signInRequired: false
+---
+
+A button for signing in and out of Ckd -- and everything in between.
+
+### Uses
+
+| State           | Button text          | Action                                                                            |
+| :-------------- | :------------------- | :-------------------------------------------------------------------------------- |
+| Ckd not running | Run Ckd to sign in   | <a href="https://ckd.dev/run" target="_blank" rel="noopener">ckd.dev/run</a>      |
+| No accounts     | Create a Ckd account | <a href="http://localhost:1818" target="_blank" rel="noopener">localhost:1818</a> |
+| Signed out      | Sign in with Ckd     | Sign in via WebAuthN                                                              |
+| Signed in       | Sign out \| $account | Sign out                                                                          |

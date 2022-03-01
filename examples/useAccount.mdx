@@ -1,0 +1,21 @@
+---
+title: "useAccount()"
+type: "hook"
+signInRequired: true
+---
+
+### Uses
+
+- Get signed in account info
+
+### Type info
+
+```typescript
+const useAccount: () => {
+  available: boolean; // is the channel loaded?
+  data: {
+    aid: string; // Ckd Account ID
+    displayName: string; // Ckd Account Display Name
+  };
+};
+```
